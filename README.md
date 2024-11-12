@@ -1,6 +1,7 @@
 <img src="istockphoto-1402798800-612x612.jpg" alt="Alt metin" width="1080" height="400">
 
-# 👋 Hello! I'm Samet
+<h1 align="center">Hello 👋 I'm Samet</h1>
+
 
 I'm passionate about **Data Science** and **Artificial Intelligence**. Additionally, I have a strong interest in **SQL** and **Database Management**. I focus on developing various data analytics and machine learning solutions using different programming languages and tools.
 
