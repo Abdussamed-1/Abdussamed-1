@@ -1,6 +1,5 @@
 # 👋 Hello! I'm Samet
 
-![Cyberwar GIF](https://media.giphy.com/media/l4JyOBy881wwYH18A/giphy.gif)
 
 I'm passionate about **Data Science** and **Artificial Intelligence**. Additionally, I have a strong interest in **SQL** and **Database Management**. I focus on developing various data analytics and machine learning solutions using different programming languages and tools.
 
