@@ -2,6 +2,8 @@
 
 I'm passionate about **Data Science** and **Artificial Intelligence**. Additionally, I have a strong interest in **SQL** and **Database Management**. I focus on developing various data analytics and machine learning solutions using different programming languages and tools.
 
+<img src="https://media.giphy.com/media/YOUR_GIF_ID/giphy.gif" alt="Welcome Banner" width="100%" />
+
 ## 🚀 About Me
 - 🎓 I work on projects related to data science, artificial intelligence, and big data.
 - 🛠️ Programming languages I use: **Python**, **R**, **SQL**, **JavaScript**.
@@ -11,6 +13,9 @@ I'm passionate about **Data Science** and **Artificial Intelligence**. Additiona
 ## 🌐 Connect with Me
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samet-erkalp-5b043a249/)
 - [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/Abdussamed-1)
+
+## 📊 Achievements
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&theme=github)
 
 ## 💻 Languages & Tools
 
