@@ -1,4 +1,4 @@
-<img src="C:\Users\samet\OneDrive\Belgeler\GitHub\Abdussamed-1\istockphoto-1402798800-612x612.jpg" alt="Alt metin" width="612" height="612">
+<img src="istockphoto-1402798800-612x612.jpg" alt="Alt metin" width="612" height="612">
 
 # 👋 Hello! I'm Samet
 
