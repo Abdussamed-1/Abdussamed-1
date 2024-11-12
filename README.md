@@ -12,6 +12,17 @@ I'm passionate about **Data Science** and **Artificial Intelligence**. Additiona
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samet-erkalp-5b043a249/)
 - [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/Abdussamed-1)
 
+## 💻 Languages & Tools
+
+### 🛠️ Programming Languages
+| Language      | Level                                           |
+|---------------|--------------------------------------------------|
+| **Python**    | ![Advanced](https://img.shields.io/badge/Level-Advanced-brightgreen) |
+| **SQL**       | ![Beginner-Intermediate](https://img.shields.io/badge/Level-Beginner--Intermediate-yellow) |
+| **JavaScript**| ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange) |
+| **R**         | ![Beginner](https://img.shields.io/badge/Level-Beginner-red) |
+
+
 ## 📂 Featured Projects
 
 ### 1. 📊 **Data Analysis & Visualization Project**
