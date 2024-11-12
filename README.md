@@ -1,6 +1,6 @@
 # 👋 Hello! I'm Samet
 
-<iframe src="https://giphy.com/embed/kdiLau77NE9Z8vxGSO" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cyberpunk-installation-software-kdiLau77NE9Z8vxGSO">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/kdiLau77NE9Z8vxGSO" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/cyberpunk-installation-software-kdiLau77NE9Z8vxGSO">via GIPHY</a></p>
 
 I'm passionate about **Data Science** and **Artificial Intelligence**. Additionally, I have a strong interest in **SQL** and **Database Management**. I focus on developing various data analytics and machine learning solutions using different programming languages and tools.
 
