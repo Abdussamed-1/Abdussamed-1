@@ -1,4 +1,4 @@
-<img src="istockphoto-1402798800-612x612.jpg" alt="Alt metin" width="500" height="700">
+<img src="istockphoto-1402798800-612x612.jpg" alt="Alt metin" width="800" height="500">
 
 # 👋 Hello! I'm Samet
 
