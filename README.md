@@ -1,8 +1,8 @@
 # 👋 Hello! I'm Samet
 
-I'm passionate about **Data Science** and **Artificial Intelligence**. Additionally, I have a strong interest in **SQL** and **Database Management**. I focus on developing various data analytics and machine learning solutions using different programming languages and tools.
+<iframe src="https://giphy.com/embed/kdiLau77NE9Z8vxGSO" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cyberpunk-installation-software-kdiLau77NE9Z8vxGSO">via GIPHY</a></p>
 
-<img src="https://media.giphy.com/media/YOUR_GIF_ID/giphy.gif" alt="Welcome Banner" width="100%" />
+I'm passionate about **Data Science** and **Artificial Intelligence**. Additionally, I have a strong interest in **SQL** and **Database Management**. I focus on developing various data analytics and machine learning solutions using different programming languages and tools.
 
 ## 🚀 About Me
 - 🎓 I work on projects related to data science, artificial intelligence, and big data.
