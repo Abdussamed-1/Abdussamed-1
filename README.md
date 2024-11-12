@@ -12,7 +12,7 @@ I'm passionate about **Data Science** and **Artificial Intelligence**. Additiona
 ## 🌐 Connect with Me
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samet-erkalp-5b043a249/)
 - [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/Abdussamed-1)
-- [![Linktree](https://play.google.com/store/apps/details?id=ee.linktr.admin)](https://linktr.ee/abdulerkalp)
+- [![Linktree](https://www.pushbio.io/wp-content/uploads/2022/11/Is-Linktree-Safe.png)](https://linktr.ee/abdulerkalp)
 
 ## 📊 Achievements
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&theme=github)
