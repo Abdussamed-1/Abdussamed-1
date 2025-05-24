@@ -49,4 +49,4 @@ I'm passionate about **Data Science** and **Artificial Intelligence**. Additiona
    - **Databases used:** `MySQL`, `PostgreSQL`.
 
 ## 📫 Get in Touch
-📧 Email: [erkalpabdussamed@gmail.com](mailto:erkalpabdussamed@gmail.com)
+📧 Email: [Official Mail](mailto:sameterkalpofficial@gmail.com)
