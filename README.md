@@ -1,16 +1,4 @@
-<div align="center">
-  <img src="banner.svg" alt="Bioinformatics Banner" width="100%" />
-</div>
-
-<div align="center">
-  <a href="https://abdussamed-1.github.io/Abdussamed-1/">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=00FFCC&center=true&vCenter=true&random=false&width=600&height=100&lines=Data+Science+Enthusiast;Bioinformatics+Researcher;Machine+Learning+Developer" alt="Typing SVG" />
-  </a>
-  <br>
-  <a href="https://abdussamed-1.github.io/Abdussamed-1/">
-    <img src="https://img.shields.io/badge/Interactive_Banner-00FFCC?style=for-the-badge&logo=github&logoColor=white" alt="Interactive Banner" />
-  </a>
-</div>
+![Banner](./banner.svg)
 
 <h1 align="center">Hello 👋 I'm Samet</h1>
 

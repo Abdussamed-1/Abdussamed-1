@@ -1,0 +1,223 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="titleGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffaa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00aaff;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="titleGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff00aa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffaa00;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0a0a1f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="glowGradient1">
+      <stop offset="0%" style="stop-color:#00ffaa;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#00ffaa;stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="glowGradient2">
+      <stop offset="0%" style="stop-color:#00aaff;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#00aaff;stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="glowGradient3">
+      <stop offset="0%" style="stop-color:#ff00aa;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#ff00aa;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Filters -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+    </filter>
+    
+    <!-- DNA Pattern -->
+    <pattern id="dnaPattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <circle cx="50" cy="50" r="2" fill="#00ffaa" opacity="0.5">
+        <animate attributeName="r" values="2;4;2" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="150" cy="150" r="2" fill="#00aaff" opacity="0.5">
+        <animate attributeName="r" values="2;4;2" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+      </circle>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bgGradient)"/>
+  
+  <!-- Background glows -->
+  <ellipse cx="300" cy="200" rx="300" ry="200" fill="url(#glowGradient1)" opacity="0.3" filter="url(#blur)">
+    <animate attributeName="rx" values="300;350;300" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="ry" values="200;250;200" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <ellipse cx="900" cy="300" rx="400" ry="200" fill="url(#glowGradient2)" opacity="0.2" filter="url(#blur)">
+    <animate attributeName="rx" values="400;450;400" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <ellipse cx="1200" cy="100" rx="300" ry="300" fill="url(#glowGradient3)" opacity="0.2" filter="url(#blur)">
+    <animate attributeName="rx" values="300;350;300" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <!-- Grid background -->
+  <g opacity="0.1">
+    <defs>
+      <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+        <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#00ffaa" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+    <rect width="1500" height="500" fill="url(#grid)" />
+  </g>
+  
+  <!-- DNA Helix -->
+  <g transform="translate(1000, 250)">
+    <!-- DNA strands -->
+    <g opacity="0.8">
+      <path d="M 0 -200 Q 100 -150, 0 -100 Q -100 -50, 0 0 Q 100 50, 0 100 Q -100 150, 0 200" 
+            fill="none" stroke="url(#titleGradient1)" stroke-width="3" filter="url(#glow)">
+        <animate attributeName="d" 
+                 values="M 0 -200 Q 100 -150, 0 -100 Q -100 -50, 0 0 Q 100 50, 0 100 Q -100 150, 0 200;
+                         M 0 -200 Q -100 -150, 0 -100 Q 100 -50, 0 0 Q -100 50, 0 100 Q 100 150, 0 200;
+                         M 0 -200 Q 100 -150, 0 -100 Q -100 -50, 0 0 Q 100 50, 0 100 Q -100 150, 0 200"
+                 dur="4s" repeatCount="indefinite"/>
+      </path>
+      
+      <path d="M 0 -200 Q -100 -150, 0 -100 Q 100 -50, 0 0 Q -100 50, 0 100 Q 100 150, 0 200" 
+            fill="none" stroke="url(#titleGradient2)" stroke-width="3" filter="url(#glow)">
+        <animate attributeName="d" 
+                 values="M 0 -200 Q -100 -150, 0 -100 Q 100 -50, 0 0 Q -100 50, 0 100 Q 100 150, 0 200;
+                         M 0 -200 Q 100 -150, 0 -100 Q -100 -50, 0 0 Q 100 50, 0 100 Q -100 150, 0 200;
+                         M 0 -200 Q -100 -150, 0 -100 Q 100 -50, 0 0 Q -100 50, 0 100 Q 100 150, 0 200"
+                 dur="4s" repeatCount="indefinite"/>
+      </path>
+      
+      <!-- Connection lines -->
+      <g stroke="#00ffaa" stroke-width="1" opacity="0.5">
+        <line x1="-50" y1="-150" x2="50" y2="-150">
+          <animate attributeName="x1" values="-50;50;-50" dur="4s" repeatCount="indefinite"/>
+          <animate attributeName="x2" values="50;-50;50" dur="4s" repeatCount="indefinite"/>
+        </line>
+        <line x1="50" y1="-50" x2="-50" y2="-50">
+          <animate attributeName="x1" values="50;-50;50" dur="4s" repeatCount="indefinite"/>
+          <animate attributeName="x2" values="-50;50;-50" dur="4s" repeatCount="indefinite"/>
+        </line>
+        <line x1="-50" y1="50" x2="50" y2="50">
+          <animate attributeName="x1" values="-50;50;-50" dur="4s" repeatCount="indefinite"/>
+          <animate attributeName="x2" values="50;-50;50" dur="4s" repeatCount="indefinite"/>
+        </line>
+        <line x1="50" y1="150" x2="-50" y2="150">
+          <animate attributeName="x1" values="50;-50;50" dur="4s" repeatCount="indefinite"/>
+          <animate attributeName="x2" values="-50;50;-50" dur="4s" repeatCount="indefinite"/>
+        </line>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Particles -->
+  <g>
+    <circle cx="200" cy="400" r="2" fill="#00ffaa" filter="url(#glow)">
+      <animate attributeName="cy" values="500;-20;500" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="15s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="450" r="2" fill="#00aaff" filter="url(#glow)">
+      <animate attributeName="cy" values="500;-20;500" dur="18s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="18s" begin="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="480" r="2" fill="#ff00aa" filter="url(#glow)">
+      <animate attributeName="cy" values="500;-20;500" dur="20s" begin="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="20s" begin="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="420" r="2" fill="#ffaa00" filter="url(#glow)">
+      <animate attributeName="cy" values="500;-20;500" dur="16s" begin="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="16s" begin="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="460" r="2" fill="#00ffaa" filter="url(#glow)">
+      <animate attributeName="cy" values="500;-20;500" dur="22s" begin="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="22s" begin="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Corner accents -->
+  <g stroke="#00ffaa" stroke-width="2" fill="none">
+    <path d="M 30 30 L 30 80 L 80 80" opacity="0.5"/>
+    <path d="M 1420 420 L 1420 470 L 1470 470" opacity="0.5"/>
+  </g>
+  
+  <!-- Main Title -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="80" font-weight="900" fill="url(#titleGradient1)" filter="url(#glow)">
+    DECODING LIFE
+  </text>
+  
+  <text x="100" y="260" font-family="Arial, sans-serif" font-size="80" font-weight="900" fill="url(#titleGradient2)" filter="url(#glow)">
+    BUILDING FUTURE
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="310" font-family="Arial, sans-serif" font-size="22" font-weight="300" fill="#ffffff" opacity="0.9" letter-spacing="3">
+    BIOINFORMATICS &amp; SOFTWARE DEVELOPER
+  </text>
+  
+  <!-- Description -->
+  <text x="100" y="350" font-family="Arial, sans-serif" font-size="16" fill="#b0b0b0" opacity="0.8">
+    <tspan x="100" dy="0">Transforming biological data into breakthrough insights through cutting-edge</tspan>
+    <tspan x="100" dy="20">algorithms and innovative computational solutions.</tspan>
+  </text>
+  
+  <!-- Tech badges -->
+  <g transform="translate(100, 400)">
+    <g>
+      <rect x="0" y="0" width="100" height="35" rx="17.5" fill="rgba(0,255,170,0.1)" stroke="#00ffaa" stroke-width="1"/>
+      <text x="50" y="23" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" text-anchor="middle">Genomics</text>
+    </g>
+    <g transform="translate(110, 0)">
+      <rect x="0" y="0" width="100" height="35" rx="17.5" fill="rgba(0,170,255,0.1)" stroke="#00aaff" stroke-width="1"/>
+      <text x="50" y="23" font-family="Arial, sans-serif" font-size="14" fill="#00aaff" text-anchor="middle">Python</text>
+    </g>
+    <g transform="translate(220, 0)">
+      <rect x="0" y="0" width="140" height="35" rx="17.5" fill="rgba(255,0,170,0.1)" stroke="#ff00aa" stroke-width="1"/>
+      <text x="70" y="23" font-family="Arial, sans-serif" font-size="14" fill="#ff00aa" text-anchor="middle">Machine Learning</text>
+    </g>
+    <g transform="translate(370, 0)">
+      <rect x="0" y="0" width="80" height="35" rx="17.5" fill="rgba(255,170,0,0.1)" stroke="#ffaa00" stroke-width="1"/>
+      <text x="40" y="23" font-family="Arial, sans-serif" font-size="14" fill="#ffaa00" text-anchor="middle">R</text>
+    </g>
+    <g transform="translate(460, 0)">
+      <rect x="0" y="0" width="120" height="35" rx="17.5" fill="rgba(0,255,170,0.1)" stroke="#00ffaa" stroke-width="1"/>
+      <text x="60" y="23" font-family="Arial, sans-serif" font-size="14" fill="#00ffaa" text-anchor="middle">Data Science</text>
+    </g>
+  </g>
+  
+  <!-- Neural network connections -->
+  <g opacity="0.2">
+    <line x1="300" y1="100" x2="500" y2="200" stroke="#00ffaa" stroke-width="1">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="600" y1="150" x2="800" y2="250" stroke="#00aaff" stroke-width="1">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="300" x2="700" y2="350" stroke="#ff00aa" stroke-width="1">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </line>
+    
+    <circle cx="300" cy="100" r="4" fill="#00ffaa"/>
+    <circle cx="500" cy="200" r="4" fill="#00ffaa"/>
+    <circle cx="600" cy="150" r="4" fill="#00aaff"/>
+    <circle cx="800" cy="250" r="4" fill="#00aaff"/>
+    <circle cx="400" cy="300" r="4" fill="#ff00aa"/>
+    <circle cx="700" cy="350" r="4" fill="#ff00aa"/>
+  </g>
+</svg>
