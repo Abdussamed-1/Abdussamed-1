@@ -10,7 +10,11 @@
 
 <h1 align="center">Hello 👋 I'm Samet</h1>
 
-I'm passionate about **Data Science**, **Bioinformatics**, and **Artificial Intelligence**. Additionally, I have a strong interest in **SQL** and **Database Management**. I focus on developing various data analytics and machine learning solutions using different programming languages and tools.
+<div align="center">
+  <p>
+    I'm passionate about <strong>Data Science</strong>, <strong>Bioinformatics</strong>, and <strong>Artificial Intelligence</strong>. Additionally, I have a strong interest in <strong>SQL</strong> and <strong>Database Management</strong>. I focus on developing various data analytics and machine learning solutions using different programming languages and tools.
+  </p>
+</div>
 
 ## 🚀 About Me
 - 🎓 I work on projects related to data science, artificial intelligence, and bioinformatics.
@@ -39,7 +43,7 @@ I'm passionate about **Data Science**, **Bioinformatics**, and **Artificial Inte
 | Language      | Level                                           |
 |---------------|--------------------------------------------------|
 | **Python**    | ![Advanced](https://img.shields.io/badge/Level-Advanced-brightgreen) |
-| **SQL**       | ![Beginner-Intermediate](https://img.shields.io/badge/Level-Beginner--Intermediate-yellow) |
+| **SQL**       | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-yellow) |
 | **JavaScript**| ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange) |
 | **R**         | ![Beginner](https://img.shields.io/badge/Level-Beginner-red) |
 
