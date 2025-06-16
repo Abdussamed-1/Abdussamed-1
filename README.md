@@ -10,10 +10,6 @@
 
 <h1 align="center">Hello 👋 I'm Samet</h1>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdussamed-1&layout=compact&theme=radical" alt="Top Languages" />
-</div>
-
 I'm passionate about **Data Science**, **Bioinformatics**, and **Artificial Intelligence**. Additionally, I have a strong interest in **SQL** and **Database Management**. I focus on developing various data analytics and machine learning solutions using different programming languages and tools.
 
 ## 🚀 About Me
@@ -33,6 +29,9 @@ I'm passionate about **Data Science**, **Bioinformatics**, and **Artificial Inte
   <img src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&theme=radical" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abdussamed-1&theme=radical" alt="GitHub Streak" />
 </div>
+
+## 📈 Activity Graph
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&theme=github)
 
 ## 💻 Languages & Tools
 
