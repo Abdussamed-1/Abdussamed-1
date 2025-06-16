@@ -1,14 +1,20 @@
-<img src="istockphoto-1402798800-612x612.jpg" alt="Alt metin" width="1080" height="400">
+<div align="center">
+  <img src="images/bioinformatics-github-banner.html" alt="Bioinformatics Banner" width="100%">
+</div>
 
 <h1 align="center">Hello 👋 I'm Samet</h1>
 
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=00FFCC&center=true&vCenter=true&random=false&width=600&height=100&lines=Data+Science+Enthusiast;Bioinformatics+Researcher;Machine+Learning+Developer" alt="Typing SVG" />
+</div>
 
-I'm passionate about **Data Science** and **Artificial Intelligence**. Additionally, I have a strong interest in **SQL** and **Database Management**. I focus on developing various data analytics and machine learning solutions using different programming languages and tools.
+I'm passionate about **Data Science**, **Bioinformatics**, and **Artificial Intelligence**. Additionally, I have a strong interest in **SQL** and **Database Management**. I focus on developing various data analytics and machine learning solutions using different programming languages and tools.
 
 ## 🚀 About Me
-- 🎓 I work on projects related to data science, artificial intelligence, and big data.
+- 🎓 I work on projects related to data science, artificial intelligence, and bioinformatics.
+- 🧬 Specializing in genomic data analysis and biological sequence processing.
 - 🛠️ Programming languages I use: **Python**, **R**, **SQL**, **JavaScript**.
-- 💡 Interests: **Machine Learning**, **Data Analytics**, **Natural Language Processing**, **Database Management**.
+- 💡 Interests: **Machine Learning**, **Data Analytics**, **Natural Language Processing**, **Database Management**, **Bioinformatics**.
 - 📊 Experienced in database management and writing complex queries.
 
 ## 🌐 Connect with Me
@@ -16,9 +22,11 @@ I'm passionate about **Data Science** and **Artificial Intelligence**. Additiona
 - [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/Abdussamed-1)
 - 🌳 [Linktree](https://linktr.ee/abdulerkalp)
 
-
-## 📊 Achievements
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&theme=github)
+## 📊 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abdussamed-1&theme=radical" alt="GitHub Streak" />
+</div>
 
 ## 💻 Languages & Tools
 
@@ -30,23 +38,39 @@ I'm passionate about **Data Science** and **Artificial Intelligence**. Additiona
 | **JavaScript**| ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange) |
 | **R**         | ![Beginner](https://img.shields.io/badge/Level-Beginner-red) |
 
+### 🧬 Bioinformatics Tools
+| Tool          | Usage                                           |
+|---------------|--------------------------------------------------|
+| **BioPython** | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange) |
+| **BLAST**     | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange) |
+| **Bioconductor**| ![Beginner](https://img.shields.io/badge/Level-Beginner-red) |
 
 ## 📂 Featured Projects
 
-### 1. 📊 **Data Analysis & Visualization Project**
+### 1. 🧬 **Bioinformatics Analysis Project**
+   - Analyzing genomic sequences using Python and BioPython.
+   - Implementing sequence alignment and pattern recognition algorithms.
+   - **Tools used:** `BioPython`, `NumPy`, `Pandas`.
+
+### 2. 📊 **Data Analysis & Visualization Project**
    - Analyzing and visualizing large datasets using Python and R.
    - Focused on data cleaning, analysis, and extracting meaningful insights.
    - **Tools used:** `Pandas`, `Matplotlib`, `Seaborn`.
 
-### 2. 🤖 **Machine Learning Model**
+### 3. 🤖 **Machine Learning Model**
    - Developed a classification model using Python and Scikit-learn library.
    - Improved model accuracy with training and test datasets.
    - **Tools used:** `Scikit-learn`, `NumPy`, `Pandas`.
 
-### 3. 🗄️ **Database Management & SQL Queries**
+### 4. 🗄️ **Database Management & SQL Queries**
    - Analyzed databases with complex SQL queries.
    - Focused on database design and optimization techniques.
    - **Databases used:** `MySQL`, `PostgreSQL`.
 
 ## 📫 Get in Touch
 📧 Email: [Official Mail](mailto:sameterkalpofficial@gmail.com)
+
+---
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Abdussamed-1&style=flat-square&color=blue" alt="Profile Views"/>
+</div>
