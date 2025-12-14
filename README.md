@@ -22,8 +22,6 @@
 - [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/Abdussamed-1)
 - 🌳 [Linktree](https://linktr.ee/abdulerkalp)
   
-  <!-- Linktree image preview -->
-  
   [![Linktree Preview](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUl9p5O30Bq3OaoOiI5O_PmGRZjvbteT7mQ&s)](https://linktr.ee/abdulerkalp)
 
 ## 📊 GitHub Stats
