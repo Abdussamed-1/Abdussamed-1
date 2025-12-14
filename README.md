@@ -21,9 +21,7 @@
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samet-erkalp-5b043a249/)
 - [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/Abdussamed-1)
  - <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUl9p5O30Bq3OaoOiI5O_PmGRZjvbteT7mQ&s" alt="Linktree icon" width="18" height="18" style="vertical-align:middle; margin-right:6px;" /> [Linktree](https://linktr.ee/abdulerkalp)
-  
-  [![Linktree Preview](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUl9p5O30Bq3OaoOiI5O_PmGRZjvbteT7mQ&s)](https://linktr.ee/abdulerkalp)
-
+ 
 ## 📊 GitHub Stats
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&theme=radical" alt="GitHub Stats" />
