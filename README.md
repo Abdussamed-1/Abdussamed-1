@@ -20,7 +20,7 @@
 ## 🌐 Connect with Me
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samet-erkalp-5b043a249/)
 - [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/Abdussamed-1)
-- 🌳 [Linktree](https://linktr.ee/abdulerkalp)
+ - 🌳 [Linktree](https://linktr.ee/abdulerkalp) [![Icon](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUl9p5O30Bq3OaoOiI5O_PmGRZjvbteT7mQ&s)](https://linktr.ee/abdulerkalp)
   
   [![Linktree Preview](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUl9p5O30Bq3OaoOiI5O_PmGRZjvbteT7mQ&s)](https://linktr.ee/abdulerkalp)
 
