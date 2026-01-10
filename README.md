@@ -32,7 +32,7 @@
   <img
     height="180"
     alt="GitHub Streak"
-    src="https://github-readme-streak-stats.herokuapp.com/?user=Abdussamed-1&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=00ffcc&fire=00ff41&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3"
+    src="https://streak-stats.demolab.com/?user=Abdussamed-1&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=00ffcc&fire=00ff41&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3"
   />
 </div>
 
