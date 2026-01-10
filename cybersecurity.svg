@@ -1,0 +1,126 @@
+<svg viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Cybersecurity banner" style="width:100%;height:auto;display:block;">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0a0f1c"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1f2a3a" stroke-width="1" opacity="0.35"/>
+    </pattern>
+
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0.75
+                0 0 0 0 1
+                0 0 0 0.85 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowGreen" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.0" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 1
+                0 0 0 0 0.25
+                0 0 0 0.8 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Path for orbiting text around the center motif -->
+    <path id="orbitTextPath" d="M 400 150 m -122,0 a 122,122 0 1,1 244,0 a 122,122 0 1,1 -244,0"/>
+  </defs>
+
+  <style>
+    /* Make it look good in GitHub (dark/light) */
+    .title { font: 800 28px/1.1 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, sans-serif; letter-spacing: 0.5px; fill: #e6edf3; }
+    .subtitle { font: 500 14px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, sans-serif; fill: #9fb0c3; }
+    .status { font: 600 12px/1.2 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; fill: #7ee787; letter-spacing: 0.6px; }
+    .orbitText { font: 700 11px/1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; fill: #9fb0c3; letter-spacing: 2.2px; opacity: 0.72; }
+    .codeRain { font: 700 10px/1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; fill: #00ff41; opacity: 0.08; }
+
+    .ringBase { stroke: #30363d; stroke-width: 2; opacity: 0.9; }
+    .ringCyan { stroke: #00bfff; stroke-width: 2; opacity: 0.65; filter: url(#glowCyan); }
+    .ringGreen { stroke: #00ff41; stroke-width: 1.2; opacity: 0.75; filter: url(#glowGreen); }
+
+    .dnaPath { stroke-dasharray: 18; animation: dash 3s linear infinite; }
+    .rotateRing { transform-origin: 400px 150px; animation: rotation 10s linear infinite; }
+    .rotateSlow { transform-origin: 400px 150px; animation: rotation 32s linear infinite; }
+    .pulse { animation: pulse 1.8s ease-in-out infinite alternate; }
+    .blink { animation: blink 0.6s step-end infinite alternate; }
+
+    .circuitLine { stroke: #1f6feb; opacity: 0.18; stroke-width: 2; }
+    .circuitNode { fill: #1f6feb; opacity: 0.22; }
+
+    @keyframes rotation { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes dash { to { stroke-dashoffset: -40; } }
+    @keyframes pulse { from { opacity: 0.35; } to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .dnaPath, .rotateRing, .rotateSlow, .pulse, .blink { animation: none !important; }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="300" fill="url(#bg)"/>
+  <rect width="800" height="300" fill="url(#grid)" opacity="0.55"/>
+
+  <!-- Subtle circuit overlay -->
+  <g>
+    <path class="circuitLine" d="M 70 70 H 210 V 110 H 280" />
+    <path class="circuitLine" d="M 730 230 H 610 V 190 H 540" />
+    <path class="circuitLine" d="M 140 235 H 240 V 200 H 310" />
+    <path class="circuitLine" d="M 660 65 H 590 V 95 H 520" />
+    <circle class="circuitNode" cx="70" cy="70" r="6" />
+    <circle class="circuitNode" cx="280" cy="110" r="5" />
+    <circle class="circuitNode" cx="730" cy="230" r="6" />
+    <circle class="circuitNode" cx="540" cy="190" r="5" />
+    <circle class="circuitNode" cx="140" cy="235" r="5" />
+    <circle class="circuitNode" cx="660" cy="65" r="5" />
+  </g>
+
+  <!-- Very subtle code overlay (adds "cyber" feel without a big title) -->
+  <g>
+    <text x="36" y="48" class="codeRain">01001110 01000001 00101101 01010011 01000101 01000011 01010101 01010010 01001001 01010100 01011001</text>
+    <text x="36" y="70" class="codeRain">01100100 01101110 01100001 00101111 01101000 01100101 01101100 01101001 01111000 00101111 01101000 01100001 01110011 01101000</text>
+    <text x="36" y="92" class="codeRain">10110010 11001010 00100110 11100011 01011010 01001101 00101101 01000001 01000101 01010011 00101101 01000111 01000011 01001101</text>
+    <text x="36" y="114" class="codeRain">01100001 01101110 01101111 01101101 01100001 01101100 01111001 00101101 01100100 01100101 01110100 01100101 01100011 01110100</text>
+  </g>
+
+  <!-- Center motif -->
+  <circle cx="400" cy="150" r="108" class="ringBase" />
+  <circle cx="400" cy="150" r="120" class="ringCyan rotateRing" stroke-dasharray="10 20" />
+  <circle cx="400" cy="150" r="95" class="ringGreen rotateRing" stroke-dasharray="50 50" style="animation-direction: reverse; animation-duration: 14s;" />
+
+  <!-- Orbiting DNA/security concepts (replaces big central title) -->
+  <g class="rotateSlow">
+    <text class="orbitText">
+      <textPath href="#orbitTextPath" startOffset="0%">
+        DNA SEQUENCE INTEGRITY • HASHING • ENCRYPTION • ANOMALY DETECTION • DNA SEQUENCE INTEGRITY • HASHING • ENCRYPTION • ANOMALY DETECTION • DNA SEQUENCE INTEGRITY • HASHING • ENCRYPTION • ANOMALY DETECTION •
+      </textPath>
+    </text>
+  </g>
+
+  <!-- “DNA/Signal” wave -->
+  <g>
+    <path d="M 345 150 Q 372 100 400 150 T 455 150" stroke="#00bfff" stroke-width="4" fill="none" class="dnaPath" opacity="0.85" filter="url(#glowCyan)" />
+    <path d="M 345 150 Q 372 200 400 150 T 455 150" stroke="#00ff41" stroke-width="4" fill="none" class="dnaPath" style="animation-delay:-1.5s;" opacity="0.85" filter="url(#glowGreen)" />
+    <line x1="375" y1="124" x2="375" y2="176" stroke="#e6edf3" stroke-width="1" opacity="0.25" />
+    <line x1="425" y1="124" x2="425" y2="176" stroke="#e6edf3" stroke-width="1" opacity="0.25" />
+  </g>
+
+  <g>
+    <text x="64" y="272" class="status blink">SYSTEM: SCANNING_THREATS...</text>
+    <rect x="48" y="258" width="10" height="18" rx="2" fill="#00ff41" class="pulse" />
+  </g>
+</svg>
