@@ -27,12 +27,12 @@
   <img
     height="180"
     alt="GitHub Stats"
-    src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&hide_border=true&border_radius=14&bg_color=0d1117&title_color=00ffcc&text_color=e6edf3&icon_color=00ff41&ring_color=00ffcc&cache_seconds=86400"
+    src="https://github-readme-stats-sigma-five.vercel.app/api?username=Abdussamed-1&show_icons=true&hide_border=true&border_radius=14&bg_color=0d1117&title_color=00ffcc&text_color=e6edf3&icon_color=00ff41&ring_color=00ffcc&cache_seconds=86400&v=3"
   />
   <img
     height="180"
     alt="GitHub Streak"
-    src="https://streak-stats.demolab.com/?user=Abdussamed-1&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=00ffcc&fire=00ff41&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3"
+    src="https://github-readme-streak-stats-eight-theta.vercel.app/?user=Abdussamed-1&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=00ffcc&fire=00ff41&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3&v=3"
   />
 </div>
 
@@ -40,7 +40,7 @@
 <div align="center">
   <img
     alt="GitHub Activity Graph"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&bg_color=0d1117&color=9fb0c3&line=00ffcc&point=00ff41&area=true&hide_border=true"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&bg_color=0d1117&color=9fb0c3&line=00ffcc&point=00ff41&area=true&hide_border=true&v=3"
   />
 </div>
 
