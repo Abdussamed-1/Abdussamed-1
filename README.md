@@ -1,5 +1,3 @@
-![Banner](./banner.svg)
-
 ![Cybersecurity DNA Banner](./cybersecurity.svg)
 
 <div align="center">
