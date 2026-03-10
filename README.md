@@ -1,4 +1,4 @@
-![Cybersecurity DNA Banner](./cybersecurity.svg)
+![Cybersecurity DNA Banner](https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/cybersecurity.svg?v=1)
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=00FFCC&center=true&vCenter=true&random=false&width=600&height=100&lines=Data+Science+Enthusiast;Bioinformatics+Researcher;Machine+Learning+Developer" alt="Typing SVG" />
