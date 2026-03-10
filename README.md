@@ -13,13 +13,14 @@
 ## 🚀 About Me
 - 🎓 I work on projects related to data science, artificial intelligence, and bioinformatics.
 - 🧬 Specializing in genomic data analysis and biological sequence processing.
-- 🛠️ Programming languages I use: **Python**, **R**, **SQL**, **JavaScript**.
+- 🛠️ Programming languages I use: **Python**, **R**, **SQL**, **JavaScript**, **Rust**, **C#**.
 - 💡 Interests: **Machine Learning**, **Data Analytics**, **Natural Language Processing**, **Database Management**, **Bioinformatics**.
 - 📊 Experienced in database management and writing complex queries.
 
 ## 🌐 Connect with Me
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samet-erkalp-5b043a249/)
 - [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/Abdussamed-1)
+ - [![Website](https://img.shields.io/badge/Website-sameterkalp.com-00ffcc?style=flat&labelColor=0d1117)](https://sameterkalp.com)
  - <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUl9p5O30Bq3OaoOiI5O_PmGRZjvbteT7mQ&s" alt="Linktree icon" width="18" height="18" style="vertical-align:middle; margin-right:6px;" /> [Linktree](https://linktr.ee/erkalp.abdul)
 
 ## 📊 GitHub Stats
@@ -53,6 +54,8 @@
 | **SQL**       | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-yellow) |
 | **JavaScript**| ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange) |
 | **R**         | ![Beginner](https://img.shields.io/badge/Level-Beginner-red) |
+| **Rust**      | ![Beginner](https://img.shields.io/badge/Level-Beginner-red) |
+| **C#**        | ![Beginner](https://img.shields.io/badge/Level-Beginner-red) |
 
 ### 🧬 Bioinformatics Tools
 | Tool          | Usage                                           |
