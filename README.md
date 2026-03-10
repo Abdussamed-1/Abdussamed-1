@@ -64,6 +64,14 @@
 | **BLAST**     | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange) |
 | **Bioconductor**| ![Beginner](https://img.shields.io/badge/Level-Beginner-red) |
 
+## 🧠 Tech Focus
+
+![Genomics](https://img.shields.io/badge/Genomics-00ffcc?style=for-the-badge&labelColor=0d1117)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-ff00aa?style=for-the-badge&labelColor=0d1117)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Data Science](https://img.shields.io/badge/Data%20Science-00ffaa?style=for-the-badge&labelColor=0d1117)
+
 ## 📂 Featured Projects
 
 ### 1. 🧬 **Bioinformatics Analysis Project**
