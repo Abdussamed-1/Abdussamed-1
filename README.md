@@ -37,11 +37,19 @@
   />
 </div>
 
-## 📈 Activity Graph
+## 📈 Contributions Calendar
+<div align="center">
+  <img
+    alt="GitHub Contributions Calendar"
+    src="https://ghchart.rshah.org/00ffcc/Abdussamed-1"
+  />
+</div>
+
+## 📈 Activity Graph (Public)
 <div align="center">
   <img
     alt="GitHub Activity Graph"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&bg_color=0d1117&color=9fb0c3&line=00ffcc&point=00ff41&area=true&hide_border=true&v=3"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&bg_color=0d1117&color=9fb0c3&line=00ffcc&point=00ff41&area=true&hide_border=true&custom_title=Public%20Activity&v=4"
   />
 </div>
 
