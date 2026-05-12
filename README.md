@@ -27,13 +27,20 @@
 <div align="center">
   <img
     height="180"
-    alt="GitHub Stats"
-    src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&hide_border=true&border_radius=14&bg_color=0d1117&title_color=00ffcc&text_color=e6edf3&icon_color=00ff41&ring_color=00ffcc&include_all_commits=true&count_private=true&cache_seconds=1800"
+    alt="Top Languages"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdussamed-1&layout=compact&langs_count=8&hide_border=true&border_radius=14&bg_color=0d1117&title_color=00ffcc&text_color=e6edf3&cache_seconds=1800"
   />
   <img
     height="180"
     alt="GitHub Streak"
     src="https://streak-stats.demolab.com/?user=Abdussamed-1&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=00ffcc&fire=00ff41&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3"
+  />
+</div>
+
+<div align="center">
+  <img
+    alt="GitHub Trophy"
+    src="https://github-profile-trophy.vercel.app/?username=Abdussamed-1&theme=darkhub&no-bg=true&no-frame=true&column=6&margin-w=10&margin-h=10"
   />
 </div>
 
