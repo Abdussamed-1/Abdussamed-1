@@ -27,8 +27,8 @@
 <div align="center">
   <img
     height="180"
-    alt="Top Languages"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdussamed-1&layout=compact&langs_count=8&hide_border=true&border_radius=14&bg_color=0d1117&title_color=00ffcc&text_color=e6edf3&cache_seconds=1800"
+    alt="Most Used Languages"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Abdussamed-1&theme=github_dark"
   />
   <img
     height="180"
