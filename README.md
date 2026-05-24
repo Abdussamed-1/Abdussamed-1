@@ -102,7 +102,7 @@
    - **Databases used:** `MySQL`, `PostgreSQL`.
 
 ## 📫 Get in Touch
-📧 Email: [Official Mail](mailto:sameterkalpofficial@gmail.com)
+📧 Email: [Official Mail](mailto: abdulsamet@chinarqai.com)
 
 ---
 <div align="center">
