@@ -18,10 +18,10 @@
 - 📊 Experienced in database management and writing complex queries.
 
 ## 🌐 Connect with Me
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samet-erkalp-5b043a249/)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sameterkalp/)
 - [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/Abdussamed-1)
- - [![Website](https://img.shields.io/badge/Website-sameterkalp.com-00ffcc?style=flat&labelColor=0d1117)](https://sameterkalp.com)
- - <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUl9p5O30Bq3OaoOiI5O_PmGRZjvbteT7mQ&s" alt="Linktree icon" width="18" height="18" style="vertical-align:middle; margin-right:6px;" /> [Linktree](https://linktr.ee/erkalp.abdul)
+- [![Website](https://img.shields.io/badge/Website-sameterkalp.com-00ffcc?style=flat&labelColor=0d1117)](https://sameterkalp.com)
+- [![Linktree](https://img.shields.io/badge/Linktree-39E09B?logo=linktree&logoColor=white)](https://linktr.ee/erkalp.abdul)
 
 ## 📊 GitHub Stats
 <div align="center">
@@ -102,7 +102,7 @@
    - **Databases used:** `MySQL`, `PostgreSQL`.
 
 ## 📫 Get in Touch
-📧 Email: [Official Mail](mailto:sameterkalpofficial@gmail.com)
+[![Email](https://img.shields.io/badge/Email-sameterkalpofficial@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sameterkalpofficial@gmail.com)
 
 ---
 <div align="center">
