@@ -102,7 +102,11 @@
    - **Databases used:** `MySQL`, `PostgreSQL`.
 
 ## 📫 Get in Touch
+<<<<<<< HEAD
 [![Email](https://img.shields.io/badge/Email-sameterkalpofficial@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sameterkalpofficial@gmail.com)
+=======
+📧 Email: [Official Mail](mailto: abdulsamet@chinarqai.com)
+>>>>>>> 90df91760fb983a7c257d228e5e6faec16781efd
 
 ---
 <div align="center">
