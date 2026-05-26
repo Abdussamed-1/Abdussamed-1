@@ -40,7 +40,7 @@
 <div align="center">
   <img
     alt="GitHub Trophy"
-    src="https://github-profile-trophy.vercel.app/?username=Abdussamed-1&theme=darkhub&no-bg=true&no-frame=true&column=6&margin-w=10&margin-h=10"
+    src="https://github-profile-trophy-orcin-eta.vercel.app/?username=Abdussamed-1&theme=darkhub&no-bg=true&no-frame=true&column=6&margin-w=10&margin-h=10"
   />
 </div>
 
