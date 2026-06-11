@@ -99,14 +99,10 @@
   </a>
 </div>
 
-## 🐍 Contribution Snake
+## 🧬 Skills & DNA
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/output/github-snake.svg" />
-    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/output/github-snake-dark.svg" />
-  </picture>
+  <img src="./skills-dna.svg" alt="Skills DNA Visualization" />
 </div>
 
 ## 📈 Activity Graph
