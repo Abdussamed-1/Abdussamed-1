@@ -26,46 +26,54 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-
-  <img
-    height="180"
-    alt="GitHub Stats"
-    src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&icon_color=00ff41&text_color=e6edf3&count_private=true"
-  />
-  <img
-    height="180"
-    alt="GitHub Streak"
-    src="https://streak-stats.demolab.com/?user=Abdussamed-1&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=00ffcc&fire=00ff41&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3"
-  />
-
+  <a href="https://github.com/Abdussamed-1">
+    <img
+      height="180"
+      alt="GitHub Stats"
+      src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&icon_color=00ff41&text_color=e6edf3&count_private=true&border_radius=14&cache_seconds=1800&card_width=320"
+    />
+  </a>
+  <a href="https://github.com/Abdussamed-1">
+    <img
+      height="180"
+      alt="GitHub Streak"
+      src="https://streak-stats.demolab.com/?user=Abdussamed-1&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=00ffcc&fire=00ff41&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3&card_width=320"
+    />
+  </a>
 </div>
 
+<br/>
+
 <div align="center">
-
-  <img
-    height="180"
-    alt="Top Languages"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdussamed-1&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&text_color=e6edf3&langs_count=8"
-  />
-
+  <a href="https://github.com/Abdussamed-1">
+    <img
+      height="180"
+      alt="Top Languages"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdussamed-1&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&text_color=e6edf3&langs_count=8&border_radius=14&cache_seconds=1800&card_width=320"
+    />
+  </a>
 </div>
 
+<br/>
+
 <div align="center">
-
-  <img
-    alt="GitHub Trophy"
-    src="https://github-profile-trophy.vercel.app/?username=Abdussamed-1&theme=darkhub&no-bg=true&no-frame=true&column=6&margin-w=10&margin-h=10"
-  />
-
+  <a href="https://github.com/Abdussamed-1">
+    <img
+      alt="GitHub Trophy"
+      src="https://github-profile-trophy.vercel.app/?username=Abdussamed-1&theme=darkhub&no-bg=true&no-frame=true&column=6&margin-w=10&margin-h=10"
+    />
+  </a>
 </div>
 
 ## 📈 Activity Graph
 
 <div align="center">
-  <img
-    alt="GitHub Activity Graph"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&bg_color=0d1117&color=9fb0c3&line=00ffcc&point=00ff41&area=true&hide_border=true&radius=8"
-  />
+  <a href="https://github.com/Abdussamed-1">
+    <img
+      alt="GitHub Activity Graph"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&bg_color=0d1117&color=9fb0c3&line=00ffcc&point=00ff41&area=true&area_color=00ffcc&hide_border=true&radius=14&custom_title=Contribution%20Activity&title_color=00ffcc"
+    />
+  </a>
 </div>
 
 ## 💻 Languages & Tools
