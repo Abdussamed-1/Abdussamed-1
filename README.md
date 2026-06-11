@@ -24,31 +24,47 @@
 - [![Linktree](https://img.shields.io/badge/Linktree-39E09B?logo=linktree&logoColor=white)](https://linktr.ee/erkalp.abdul)
 
 ## 📊 GitHub Stats
+
 <div align="center">
+
   <img
     height="180"
-    alt="Most Used Languages"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Abdussamed-1&theme=github_dark"
+    alt="GitHub Stats"
+    src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&icon_color=00ff41&text_color=e6edf3&count_private=true"
   />
   <img
     height="180"
     alt="GitHub Streak"
     src="https://streak-stats.demolab.com/?user=Abdussamed-1&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=00ffcc&fire=00ff41&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3"
   />
+
 </div>
 
 <div align="center">
+
+  <img
+    height="180"
+    alt="Top Languages"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdussamed-1&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&text_color=e6edf3&langs_count=8"
+  />
+
+</div>
+
+<div align="center">
+
   <img
     alt="GitHub Trophy"
-    src="https://github-profile-trophy-orcin-eta.vercel.app/?username=Abdussamed-1&theme=darkhub&no-bg=true&no-frame=true&column=6&margin-w=10&margin-h=10"
+    src="https://github-profile-trophy.vercel.app/?username=Abdussamed-1&theme=darkhub&no-bg=true&no-frame=true&column=6&margin-w=10&margin-h=10"
   />
+
 </div>
 
 ## 📈 Activity Graph
+
 <div align="center">
   <img
     alt="GitHub Activity Graph"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&bg_color=0d1117&color=9fb0c3&line=00ffcc&point=00ff41&area=true&hide_border=true"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&bg_color=0d1117&color=9fb0c3&line=00ffcc&point=00ff41&area=true&hide_border=true&radius=8"
   />
 </div>
 
