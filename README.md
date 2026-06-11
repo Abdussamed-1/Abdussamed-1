@@ -99,12 +99,6 @@
   </a>
 </div>
 
-## 🧬 Skills & DNA
-
-<div align="center">
-  <img src="./skills-dna.svg" alt="Skills DNA Visualization" />
-</div>
-
 ## 📈 Activity Graph
 
 <div align="center">
