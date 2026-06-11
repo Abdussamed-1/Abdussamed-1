@@ -59,10 +59,54 @@
 <div align="center">
   <a href="https://github.com/Abdussamed-1">
     <img
-      alt="GitHub Trophy"
-      src="https://github-profile-trophy.vercel.app/?username=Abdussamed-1&theme=darkhub&no-bg=true&no-frame=true&column=6&margin-w=10&margin-h=10"
+      alt="Profile Details"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abdussamed-1&theme=github_dark"
     />
   </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/Abdussamed-1">
+    <img
+      height="180"
+      alt="Language by Repo"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Abdussamed-1&theme=github_dark"
+    />
+  </a>
+  <a href="https://github.com/Abdussamed-1">
+    <img
+      height="180"
+      alt="Language by Commit"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Abdussamed-1&theme=github_dark"
+    />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/Abdussamed-1">
+    <img
+      height="180"
+      alt="Stats"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Abdussamed-1&theme=github_dark"
+    />
+  </a>
+  <a href="https://github.com/Abdussamed-1">
+    <img
+      height="180"
+      alt="Productive Time"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Abdussamed-1&theme=github_dark&utcOffset=3"
+    />
+  </a>
+</div>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/output/github-snake.svg" />
+    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/output/github-snake-dark.svg" />
+  </picture>
 </div>
 
 ## 📈 Activity Graph
