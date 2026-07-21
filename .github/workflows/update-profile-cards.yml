@@ -1,0 +1,73 @@
+name: Update Profile Cards
+
+on:
+  schedule:
+    # Every 6 hours — keeps stats & activity graph in sync
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - ".github/workflows/update-profile-cards.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: >-
+            username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&icon_color=00ff41&text_color=e6edf3&border_radius=14
+          path: profile/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: >-
+            username=${{ github.repository_owner }}&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&text_color=e6edf3&langs_count=8&border_radius=14
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          options: >-
+            bg_color=0d1117&color=9fb0c3&line=00ffcc&point=00ff41&area=true&area_color=00ffcc&hide_border=true&radius=14&custom_title=Contribution%20Activity&title_color=00ffcc
+          output_path: profile/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Download streak card
+        continue-on-error: true
+        run: |
+          curl -fsSL \
+            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=00ffcc&fire=00ff41&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3" \
+            -o profile/streak.svg
+          # Reject HTML/error responses
+          if ! head -c 200 profile/streak.svg | grep -qi '<svg'; then
+            echo "Streak response was not SVG; keeping previous file if any"
+            git checkout -- profile/streak.svg 2>/dev/null || rm -f profile/streak.svg
+          fi
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p profile
+          git add profile/*.svg
+          if git diff --cached --quiet; then
+            echo "No card changes"
+            exit 0
+          fi
+          git commit -m "chore: refresh profile stats cards"
+          git push

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="195" role="img" aria-labelledby="desc">
+  <title id="desc">GitHub Stats  pending first sync</title>
+  <rect width="450" height="195" rx="14" fill="#0d1117"/>
+  <text x="225" y="90" text-anchor="middle" fill="#00ffcc" font-family="Segoe UI, sans-serif" font-size="18">GitHub Stats</text>
+  <text x="225" y="120" text-anchor="middle" fill="#9fb0c3" font-family="Segoe UI, sans-serif" font-size="13">Run Update Profile Cards workflow once</text>
+</svg>
