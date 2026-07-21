@@ -34,7 +34,7 @@ jobs:
         with:
           card: top-langs
           options: >-
-            username=${{ github.repository_owner }}&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&text_color=e6edf3&langs_count=8&border_radius=14&disable_animations=true
+            username=${{ github.repository_owner }}&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&text_color=e6edf3&langs_count=6&border_radius=14&disable_animations=true&hide=Jupyter%20Notebook
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -66,9 +66,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y librsvg2-bin
           mkdir -p profile
-          rsvg-convert -w 934 profile/github-stats.svg -o profile/github-stats.png
-          rsvg-convert -w 600 profile/top-langs.svg -o profile/top-langs.png
-          rsvg-convert -w 990 profile/streak.svg -o profile/streak.png
+          rsvg-convert -w 900 profile/github-stats.svg -o profile/github-stats.png
+          rsvg-convert -w 900 profile/top-langs.svg -o profile/top-langs.png
+          rsvg-convert -w 900 profile/streak.svg -o profile/streak.png
           rsvg-convert -w 1200 profile/activity-graph.svg -o profile/activity-graph.png
           ls -la profile/
 
