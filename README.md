@@ -25,22 +25,22 @@
 
 ## 📊 GitHub Stats
 
-<!-- Cards are generated every 6h by .github/workflows/update-profile-cards.yml (static SVGs = fast load, no rate limits) -->
+<!-- Cards refreshed by .github/workflows/update-profile-cards.yml — absolute URLs so GitHub profile reliably loads them -->
 <div align="center">
-  <img height="180" alt="GitHub Stats" src="./profile/github-stats.svg" />
-  <img height="180" alt="GitHub Streak" src="./profile/streak.svg" />
+  <img height="180" alt="GitHub Stats" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/github-stats.svg" />
+  <img height="180" alt="GitHub Streak" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/streak.svg" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img height="180" alt="Top Languages" src="./profile/top-langs.svg" />
+  <img height="180" alt="Top Languages" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/top-langs.svg" />
 </div>
 
 ## 📈 Activity Graph
 
 <div align="center">
-  <img alt="GitHub Activity Graph" src="./profile/activity-graph.svg" />
+  <img alt="GitHub Activity Graph" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/activity-graph.svg" />
 </div>
 
 ## 💻 Languages & Tools
