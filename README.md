@@ -25,23 +25,19 @@
 
 ## 📊 GitHub Stats
 
-<!-- Cards refreshed by .github/workflows/update-profile-cards.yml — absolute URLs so GitHub profile reliably loads them -->
-<div align="center">
-  <img height="180" alt="GitHub Stats" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/github-stats.svg" />
-  <img height="180" alt="GitHub Streak" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/streak.svg" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img height="180" alt="Top Languages" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/top-langs.svg" />
-</div>
+<!-- PNG cards (Camo-safe). Regenerated every 6h by update-profile-cards.yml -->
+<p align="center">
+  <img height="180" alt="GitHub Stats" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/github-stats.png" />
+  <img height="180" alt="GitHub Streak" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/streak.png" />
+  <br/>
+  <img height="180" alt="Top Languages" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/top-langs.png" />
+</p>
 
 ## 📈 Activity Graph
 
-<div align="center">
-  <img alt="GitHub Activity Graph" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/activity-graph.svg" />
-</div>
+<p align="center">
+  <img alt="GitHub Activity Graph" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/activity-graph.png" />
+</p>
 
 ## 💻 Languages & Tools
 
