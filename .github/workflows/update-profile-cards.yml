@@ -1,212 +1,57 @@
-name: Update Profile Cards
+name: Generate GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    # Her gün 03:00 UTC'de otomatik yeniden üretir
+    - cron: "0 3 * * *"
+  workflow_dispatch: {} # Actions sekmesinden manuel de tetikleyebilirsin
+  push:
+    branches: [main]
 
 jobs:
-  generate:
+  github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Stats card
-        uses: stats-organization/github-readme-stats-action@v2
+      - uses: lowlighter/metrics@latest
         with:
-          card: stats
-          path: profile/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          options: >-
-            username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&cache_seconds=1800&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7ee0d1&icon_color=7ee0d1&text_color=c9d1d9&border_radius=14&disable_animations=true
+          filename: github-metrics.svg
+          committer_message: "chore: update github-metrics.svg [skip ci]"
 
-      - name: Top languages card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          options: >-
-            username=${{ github.repository_owner }}&layout=compact&langs_count=8&cache_seconds=1800&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7ee0d1&text_color=c9d1d9&border_radius=14&disable_animations=true&hide=Jupyter%20Notebook
+          # --- Görünüm / tema ---
+          config_timezone: Europe/Istanbul
+          plugin_base: header, activity, community, repositories, metadata
+          base: header, activity, community, repositories
+          config_display: large
+          config_theme: dark
 
-      - name: Activity graph
-        uses: maurodesouza/github-readme-activity-graph-action@v1
-        with:
-          username: ${{ github.repository_owner }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-          output_path: profile/activity-graph.svg
-          options: >-
-            bg_color=0d1117&color=9fb0c3&line=7ee0d1&point=c9d1d9&area=true&area_color=7ee0d1&hide_border=true&radius=14&custom_title=Contribution%20Activity&title_color=7ee0d1
+          # --- Aktif eklentiler ---
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_limit: 10
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14
+          plugin_languages_threshold: O%
 
-      - name: Streak card
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python3 - <<'PY'
-          import datetime as dt
-          import json
-          import os
-          import urllib.request
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
 
-          owner = os.environ["GITHUB_REPOSITORY_OWNER"]
-          token = os.environ["GITHUB_TOKEN"]
-          today = dt.date.today()
+          plugin_lines: yes
+          plugin_lines_history_limit: 28
+          plugin_lines_repositories_limit: 3
 
-          def graphql(query, variables):
-              payload = json.dumps({"query": query, "variables": variables}).encode("utf-8")
-              request = urllib.request.Request(
-                  "https://api.github.com/graphql",
-                  data=payload,
-                  headers={
-                      "Authorization": f"Bearer {token}",
-                      "Content-Type": "application/json",
-                      "User-Agent": "github-actions-profile-card-generator",
-                  },
-              )
-              with urllib.request.urlopen(request) as response:
-                  data = json.load(response)
-              if "errors" in data:
-                  raise RuntimeError(data["errors"])
-              return data["data"]
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
 
-          user_query = """
-          query($login: String!) {
-            user(login: $login) {
-              createdAt
-            }
-          }
-          """
-
-          history_query = """
-          query($login: String!, $from: DateTime!, $to: DateTime!) {
-            user(login: $login) {
-              contributionsCollection(from: $from, to: $to) {
-                contributionCalendar {
-                  weeks {
-                    contributionDays {
-                      date
-                      contributionCount
-                    }
-                  }
-                }
-              }
-            }
-          }
-          """
-
-          created_at = dt.datetime.fromisoformat(graphql(user_query, {"login": owner})["user"]["createdAt"].replace("Z", "+00:00")).date()
-          active_days = {}
-
-          for year in range(created_at.year, today.year + 1):
-              start = max(created_at, dt.date(year, 1, 1))
-              end = min(today, dt.date(year, 12, 31))
-              if start > end:
-                  continue
-              data = graphql(
-                  history_query,
-                  {
-                      "login": owner,
-                      "from": dt.datetime.combine(start, dt.time.min, tzinfo=dt.timezone.utc).isoformat().replace("+00:00", "Z"),
-                      "to": dt.datetime.combine(end, dt.time.max, tzinfo=dt.timezone.utc).isoformat().replace("+00:00", "Z"),
-                  },
-              )
-              weeks = data["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
-              for week in weeks:
-                  for day in week["contributionDays"]:
-                      date_value = dt.date.fromisoformat(day["date"])
-                      count = int(day["contributionCount"])
-                      if count > 0:
-                          active_days[date_value] = active_days.get(date_value, 0) + count
-
-          if not active_days:
-              raise RuntimeError("No contribution data returned from GitHub GraphQL.")
-
-          sorted_days = sorted(active_days)
-          total_contributions = sum(active_days.values())
-
-          longest_streak = 0
-          current_run = 0
-          previous_day = None
-          for day in sorted_days:
-              if previous_day and day == previous_day + dt.timedelta(days=1):
-                  current_run += 1
-              else:
-                  current_run = 1
-              longest_streak = max(longest_streak, current_run)
-              previous_day = day
-
-          last_day = sorted_days[-1]
-          current_streak = 1
-          cursor = last_day
-          while True:
-              next_day = cursor - dt.timedelta(days=1)
-              if next_day not in active_days:
-                  break
-              current_streak += 1
-              cursor = next_day
-
-          first_day = sorted_days[0]
-
-          def fmt_date(value):
-              if value.year == last_day.year:
-                  return value.strftime("%b %d")
-              return value.strftime("%b %d, %Y")
-
-          width = 780
-          height = 220
-          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none">
-            <rect width="{width}" height="{height}" rx="18" fill="#0d1117"/>
-            <rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="17" stroke="#30363d"/>
-            <text x="390" y="42" text-anchor="middle" fill="#7ee0d1" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">GitHub Contribution Summary</text>
-            <text x="390" y="68" text-anchor="middle" fill="#9fb0c3" font-family="Segoe UI, Arial, sans-serif" font-size="12">{fmt_date(first_day)} - {fmt_date(last_day)}</text>
-
-            <line x1="260" y1="92" x2="260" y2="184" stroke="#30363d" stroke-width="2"/>
-            <line x1="520" y1="92" x2="520" y2="184" stroke="#30363d" stroke-width="2"/>
-
-            <text x="130" y="136" text-anchor="middle" fill="#7c93ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">{total_contributions}</text>
-            <text x="130" y="164" text-anchor="middle" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="14">Total Contributions</text>
-
-            <circle cx="390" cy="140" r="38" stroke="#7ee0d1" stroke-width="6" fill="none"/>
-            <circle cx="390" cy="140" r="30" fill="#11161d"/>
-            <text x="390" y="148" text-anchor="middle" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">{current_streak}</text>
-            <text x="390" y="196" text-anchor="middle" fill="#7ee0d1" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Current Streak</text>
-
-            <text x="650" y="136" text-anchor="middle" fill="#7c93ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">{longest_streak}</text>
-            <text x="650" y="164" text-anchor="middle" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="14">Longest Streak</text>
-          </svg>'''
-
-          with open("profile/streak.svg", "w", encoding="utf-8") as handle:
-              handle.write(svg)
-          PY
-
-      - name: Fix SVG + render compact PNG
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq librsvg2-bin
-
-          # Camo freezes animations → unhide staggered text
-          sed -i -E 's/opacity:\s*0;/opacity: 1;/g' profile/*.svg
-          sed -i -E 's/\.stagger\s*\{[^}]*\}/.stagger { opacity: 1; }/g' profile/*.svg
-          sed -i -E "s/ style='[^']*animation:[^']*'//g" profile/*.svg
-
-          # github-stats-extended bug: values lack text-anchor="end" → overlap labels
-          sed -i -E 's/x="224\.01"/x="300" text-anchor="end"/g' profile/github-stats.svg
-
-          # Compact PNG sizes (README display stays small & sharp)
-          rsvg-convert -w 420 profile/github-stats.svg -o profile/github-stats.png
-          rsvg-convert -w 300 profile/top-langs.svg -o profile/top-langs.png
-          rsvg-convert -w 480 profile/streak.svg -o profile/streak.png
-          rsvg-convert -w 780 profile/activity-graph.svg -o profile/activity-graph.png
-          rm -f profile/github-stats.svg profile/top-langs.svg profile/activity-graph.svg
-
-      - name: Commit
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.png
-          git diff --cached --quiet && exit 0
-          git commit -m "chore: refresh profile cards"
-          git push
+          plugin_calendar: no
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
