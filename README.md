@@ -1,101 +1,139 @@
-![Cybersecurity DNA Banner](./cybersecurity.svg)
-
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=00FFCC&center=true&vCenter=true&random=false&width=600&height=100&lines=Data+Science+Enthusiast;Bioinformatics+Researcher;Machine+Learning+Developer" alt="Typing SVG" />
+
+<img src="./cybersecurity.svg" alt="Cybersecurity DNA Banner" width="100%"/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=32&pause=1000&color=00FFCC&center=true&vCenter=true&random=false&width=600&height=80&lines=Data+Science+Enthusiast;Bioinformatics+Researcher;Machine+Learning+Developer" alt="Typing SVG" />
+
 </div>
 
 <div align="center">
   <p>
-    I’m passionate about <strong>Data Science</strong>, <strong>Bioinformatics</strong>, and <strong>Artificial Intelligence</strong>. I enjoy building analytical solutions, exploring biological data, and developing machine learning projects with a strong focus on clarity, reproducibility, and impact.
+    I'm passionate about <strong>Data Science</strong>, <strong>Bioinformatics</strong>, and <strong>Artificial Intelligence</strong>. I also have a strong interest in <strong>SQL</strong> and <strong>Database Management</strong>. I focus on building data analytics and machine learning solutions across different programming languages and tools.
   </p>
 </div>
 
-## 🚀 About Me
-- 🎓 I work on projects at the intersection of data science, AI, and bioinformatics.
-- 🧬 I’m particularly interested in genomic data analysis and biological sequence processing.
-- 🛠️ Main tools and languages: <strong>Python</strong>, <strong>R</strong>, <strong>SQL</strong>, <strong>JavaScript</strong>, <strong>Rust</strong>, and <strong>C#</strong>.
-- 💡 My interests include <strong>Machine Learning</strong>, <strong>Data Analytics</strong>, <strong>Natural Language Processing</strong>, <strong>Database Management</strong>, and <strong>Bioinformatics</strong>.
-- 📊 I also enjoy working with databases and writing efficient queries for data-driven projects.
+<br/>
 
-## 🌐 Connect With Me
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sameterkalp/)
-- [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/Abdussamed-1)
-- [![Website](https://img.shields.io/badge/Website-sameterkalp.com-00ffcc?style=flat&labelColor=0d1117)](https://sameterkalp.com)
-- [![Linktree](https://img.shields.io/badge/Linktree-39E09B?logo=linktree&logoColor=white)](https://linktr.ee/erkalp.abdul)
+## 🚀 About Me
+
+- 🎓 I work on projects related to data science, artificial intelligence, and bioinformatics.
+- 🧬 Specializing in genomic data analysis and biological sequence processing.
+- 🛠️ Languages I use: **Python**, **R**, **SQL**, **JavaScript**, **Rust**, **C#**.
+- 💡 Interests: **Machine Learning**, **Data Analytics**, **Natural Language Processing**, **Database Management**, **Bioinformatics**.
+- 📊 Experienced in database management and writing complex queries.
+
+<br/>
+
+## 🌐 Connect with Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sameterkalp/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdussamed-1)
+[![Website](https://img.shields.io/badge/Website-sameterkalp.com-00ffcc?style=for-the-badge&labelColor=0d1117)](https://sameterkalp.com)
+[![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/erkalp.abdul)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdulsamet@chinarqai.com)
+
+</div>
+
+<br/>
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="135" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/github-stats.png" alt="GitHub Stats" />
-  <img height="135" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/top-langs.png" alt="Top Languages" />
-</div>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ffcc&icon_color=00ffcc" alt="GitHub Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdussamed-1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ffcc" alt="Top Languages" />
+
 <br/>
-<div align="center">
-  <img height="120" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/streak.png" alt="GitHub Streak" />
+
+<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Abdussamed-1&theme=tokyonight&hide_border=true&background=0d1117&ring=00ffcc&fire=00ffcc&currStreakLabel=00ffcc" alt="GitHub Streak" />
+
 </div>
+
+<br/>
 
 ## 📈 Activity Graph
 
 <div align="center">
-  <img width="780" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/activity-graph.png" alt="GitHub Activity Graph" />
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&theme=react-dark&hide_border=true&bg_color=0d1117&color=00ffcc&line=00ffcc&point=ffffff" alt="GitHub Activity Graph" />
+
 </div>
 
-## 💻 Skills & Tools
+<br/>
+
+## 💻 Languages & Tools
 
 ### 🛠️ Programming Languages
-| Language | Level |
-|----------|------|
-| **Python** | ![Advanced](https://img.shields.io/badge/Level-Advanced-brightgreen) |
-| **SQL** | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-yellow) |
-| **JavaScript** | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange) |
-| **R** | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange) |
-| **Rust** | ![Learning](https://img.shields.io/badge/Level-Learning-blue) |
-| **C#** | ![Learning](https://img.shields.io/badge/Level-Learning-blue) |
 
-### 🧬 Bioinformatics & Data Tools
-| Tool | Usage |
-|------|-------|
-| **BioPython** | Data analysis and sequence processing |
-| **BLAST** | Sequence similarity and comparison |
-| **Bioconductor** | Bioinformatics workflows in R |
-| **Pandas** | Data cleaning and analysis |
-| **NumPy** | Numerical computing |
-| **Scikit-learn** | Machine learning experiments |
+| Language       | Level                                                                    |
+|----------------|---------------------------------------------------------------------------|
+| **Python**     | ![Advanced](https://img.shields.io/badge/Level-Advanced-brightgreen)      |
+| **SQL**        | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-yellow)   |
+| **JavaScript** | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange)   |
+| **R**          | ![Beginner](https://img.shields.io/badge/Level-Beginner-red)              |
+| **Rust**       | ![Beginner](https://img.shields.io/badge/Level-Beginner-red)              |
+| **C#**         | ![Beginner](https://img.shields.io/badge/Level-Beginner-red)              |
 
-## 🧠 Core Focus Areas
+### 🧬 Bioinformatics Tools
+
+| Tool              | Usage                                                                    |
+|-------------------|---------------------------------------------------------------------------|
+| **BioPython**     | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange)   |
+| **BLAST**         | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange)   |
+| **Bioconductor**  | ![Beginner](https://img.shields.io/badge/Level-Beginner-red)              |
+
+<br/>
+
+## 🧠 Tech Focus
+
+<div align="center">
 
 ![Genomics](https://img.shields.io/badge/Genomics-00ffcc?style=for-the-badge&labelColor=0d1117)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-ff00aa?style=for-the-badge&labelColor=0d1117)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Data Science](https://img.shields.io/badge/Data%20Science-00ffaa?style=for-the-badge&labelColor=0d1117)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+</div>
+
+<br/>
 
 ## 📂 Featured Projects
 
 ### 1. 🧬 Bioinformatics Analysis Project
-- Exploring genomic data using Python and BioPython.
-- Working on sequence analysis and pattern recognition tasks.
-- Tools used: <strong>BioPython</strong>, <strong>NumPy</strong>, <strong>Pandas</strong>
+- Analyzing genomic sequences using Python and BioPython.
+- Implementing sequence alignment and pattern recognition algorithms.
+- **Tools used:** `BioPython`, `NumPy`, `Pandas`
 
 ### 2. 📊 Data Analysis & Visualization Project
-- Analyzing and visualizing datasets with Python and R.
-- Focused on data cleaning, exploration, and meaningful insights.
-- Tools used: <strong>Pandas</strong>, <strong>Matplotlib</strong>, <strong>Seaborn</strong>
+- Analyzing and visualizing large datasets using Python and R.
+- Focused on data cleaning, analysis, and extracting meaningful insights.
+- **Tools used:** `Pandas`, `Matplotlib`, `Seaborn`
 
-### 3. 🤖 Machine Learning Project
-- Developing predictive models with Python and Scikit-learn.
-- Improving performance through experimentation and evaluation.
-- Tools used: <strong>Scikit-learn</strong>, <strong>NumPy</strong>, <strong>Pandas</strong>
+### 3. 🤖 Machine Learning Model
+- Developed a classification model using Python and Scikit-learn.
+- Improved model accuracy through training/test set tuning.
+- **Tools used:** `Scikit-learn`, `NumPy`, `Pandas`
 
-### 4. 🗄️ Database & SQL Projects
-- Working with relational databases and complex query design.
-- Interested in database optimization and efficient data access.
-- Databases used: <strong>MySQL</strong>, <strong>PostgreSQL</strong>
+### 4. 🗄️ Database Management & SQL Queries
+- Analyzed databases with complex SQL queries.
+- Focused on database design and optimization techniques.
+- **Databases used:** `MySQL`, `PostgreSQL`
 
-## 📫 Get In Touch
-[![Email](https://img.shields.io/badge/Email-abdulsamet@chinarqai.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:abdulsamet@chinarqai.com)
+<br/>
+
+## 📫 Get in Touch
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/abdulsamet@chinarqai.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdulsamet@chinarqai.com)
+
+</div>
 
 ---
+
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Abdussamed-1&style=flat-square&color=blue" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Abdussamed-1&style=flat-square&color=blue" alt="Profile Views"/>
 </div>
