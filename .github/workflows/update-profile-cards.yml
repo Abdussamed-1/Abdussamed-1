@@ -42,12 +42,145 @@ jobs:
             bg_color=0d1117&color=9fb0c3&line=7ee0d1&point=c9d1d9&area=true&area_color=7ee0d1&hide_border=true&radius=14&custom_title=Contribution%20Activity&title_color=7ee0d1
 
       - name: Streak card
-        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -fsSL \
-            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=7ee0d1&fire=7ee0d1&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3&cache_seconds=1800" \
-            -o profile/streak.svg
-          head -c 200 profile/streak.svg | grep -qi '<svg' || git checkout -- profile/streak.svg 2>/dev/null || true
+          python3 - <<'PY'
+          import datetime as dt
+          import json
+          import os
+          import urllib.request
+
+          owner = os.environ["GITHUB_REPOSITORY_OWNER"]
+          token = os.environ["GITHUB_TOKEN"]
+          today = dt.date.today()
+
+          def graphql(query, variables):
+              payload = json.dumps({"query": query, "variables": variables}).encode("utf-8")
+              request = urllib.request.Request(
+                  "https://api.github.com/graphql",
+                  data=payload,
+                  headers={
+                      "Authorization": f"Bearer {token}",
+                      "Content-Type": "application/json",
+                      "User-Agent": "github-actions-profile-card-generator",
+                  },
+              )
+              with urllib.request.urlopen(request) as response:
+                  data = json.load(response)
+              if "errors" in data:
+                  raise RuntimeError(data["errors"])
+              return data["data"]
+
+          user_query = """
+          query($login: String!) {
+            user(login: $login) {
+              createdAt
+            }
+          }
+          """
+
+          history_query = """
+          query($login: String!, $from: DateTime!, $to: DateTime!) {
+            user(login: $login) {
+              contributionsCollection(from: $from, to: $to) {
+                contributionCalendar {
+                  weeks {
+                    contributionDays {
+                      date
+                      contributionCount
+                    }
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          created_at = dt.datetime.fromisoformat(graphql(user_query, {"login": owner})["user"]["createdAt"].replace("Z", "+00:00")).date()
+          active_days = {}
+
+          for year in range(created_at.year, today.year + 1):
+              start = max(created_at, dt.date(year, 1, 1))
+              end = min(today, dt.date(year, 12, 31))
+              if start > end:
+                  continue
+              data = graphql(
+                  history_query,
+                  {
+                      "login": owner,
+                      "from": dt.datetime.combine(start, dt.time.min, tzinfo=dt.timezone.utc).isoformat().replace("+00:00", "Z"),
+                      "to": dt.datetime.combine(end, dt.time.max, tzinfo=dt.timezone.utc).isoformat().replace("+00:00", "Z"),
+                  },
+              )
+              weeks = data["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+              for week in weeks:
+                  for day in week["contributionDays"]:
+                      date_value = dt.date.fromisoformat(day["date"])
+                      count = int(day["contributionCount"])
+                      if count > 0:
+                          active_days[date_value] = active_days.get(date_value, 0) + count
+
+          if not active_days:
+              raise RuntimeError("No contribution data returned from GitHub GraphQL.")
+
+          sorted_days = sorted(active_days)
+          total_contributions = sum(active_days.values())
+
+          longest_streak = 0
+          current_run = 0
+          previous_day = None
+          for day in sorted_days:
+              if previous_day and day == previous_day + dt.timedelta(days=1):
+                  current_run += 1
+              else:
+                  current_run = 1
+              longest_streak = max(longest_streak, current_run)
+              previous_day = day
+
+          last_day = sorted_days[-1]
+          current_streak = 1
+          cursor = last_day
+          while True:
+              next_day = cursor - dt.timedelta(days=1)
+              if next_day not in active_days:
+                  break
+              current_streak += 1
+              cursor = next_day
+
+          first_day = sorted_days[0]
+
+          def fmt_date(value):
+              if value.year == last_day.year:
+                  return value.strftime("%b %d")
+              return value.strftime("%b %d, %Y")
+
+          width = 780
+          height = 220
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none">
+            <rect width="{width}" height="{height}" rx="18" fill="#0d1117"/>
+            <rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="17" stroke="#30363d"/>
+            <text x="390" y="42" text-anchor="middle" fill="#7ee0d1" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">GitHub Contribution Summary</text>
+            <text x="390" y="68" text-anchor="middle" fill="#9fb0c3" font-family="Segoe UI, Arial, sans-serif" font-size="12">{fmt_date(first_day)} - {fmt_date(last_day)}</text>
+
+            <line x1="260" y1="92" x2="260" y2="184" stroke="#30363d" stroke-width="2"/>
+            <line x1="520" y1="92" x2="520" y2="184" stroke="#30363d" stroke-width="2"/>
+
+            <text x="130" y="136" text-anchor="middle" fill="#7c93ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">{total_contributions}</text>
+            <text x="130" y="164" text-anchor="middle" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="14">Total Contributions</text>
+
+            <circle cx="390" cy="140" r="38" stroke="#7ee0d1" stroke-width="6" fill="none"/>
+            <circle cx="390" cy="140" r="30" fill="#11161d"/>
+            <text x="390" y="148" text-anchor="middle" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">{current_streak}</text>
+            <text x="390" y="196" text-anchor="middle" fill="#7ee0d1" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Current Streak</text>
+
+            <text x="650" y="136" text-anchor="middle" fill="#7c93ff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">{longest_streak}</text>
+            <text x="650" y="164" text-anchor="middle" fill="#c9d1d9" font-family="Segoe UI, Arial, sans-serif" font-size="14">Longest Streak</text>
+          </svg>'''
+
+          with open("profile/streak.svg", "w", encoding="utf-8") as handle:
+              handle.write(svg)
+          PY
 
       - name: Fix SVG + render compact PNG
         run: |
@@ -67,7 +200,7 @@ jobs:
           rsvg-convert -w 300 profile/top-langs.svg -o profile/top-langs.png
           rsvg-convert -w 480 profile/streak.svg -o profile/streak.png
           rsvg-convert -w 780 profile/activity-graph.svg -o profile/activity-graph.png
-          rm -f profile/*.svg
+          rm -f profile/github-stats.svg profile/top-langs.svg profile/activity-graph.svg
 
       - name: Commit
         run: |

@@ -42,12 +42,12 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&count_private=true&include_all_commits=true&cache_seconds=1800&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7ee0d1&icon_color=7ee0d1&text_color=c9d1d9" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdussamed-1&layout=compact&langs_count=8&cache_seconds=1800&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7ee0d1&text_color=c9d1d9" alt="Top Languages" />
+<img height="165" src="./profile/github-stats.png" alt="GitHub Stats" />
+<img height="165" src="./profile/top-langs.png" alt="Top Languages" />
 
 <br/>
 
-<img height="180" src="https://streak-stats.demolab.com/?user=Abdussamed-1&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=7ee0d1&fire=7ee0d1&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3&cache_seconds=1800" alt="GitHub Streak" />
+<img height="180" src="./profile/streak.svg" alt="GitHub Streak" />
 
 </div>
 
@@ -57,7 +57,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&theme=react-dark&hide_border=true&bg_color=0d1117&color=7ee0d1&line=7ee0d1&point=c9d1d9" alt="GitHub Activity Graph" />
+<img width="100%" src="./profile/activity-graph.png" alt="GitHub Activity Graph" />
 
 </div>
 
