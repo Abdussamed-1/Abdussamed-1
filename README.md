@@ -44,12 +44,12 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&hide_border=true&bg_color=0d1117&title_color=7ee0d1&icon_color=7ee0d1&text_color=c9d1d9&count_private=true" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdussamed-1&layout=compact&hide_border=true&bg_color=0d1117&title_color=7ee0d1&text_color=c9d1d9&langs_count=10" alt="Top Languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&hide_border=true&bg_color=0d1117&title_color=7ee0d1&icon_color=7ee0d1&text_color=c9d1d9&count_private=true&cache_seconds=86400" alt="GitHub Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdussamed-1&layout=compact&hide_border=true&bg_color=0d1117&title_color=7ee0d1&text_color=c9d1d9&langs_count=10&cache_seconds=86400" alt="Top Languages" />
 
 <br/>
 
-<img height="180" src="https://streak-stats.demolab.com/?user=Abdussamed-1&hide_border=true&background=0d1117&ring=7ee0d1&fire=22c55e&currStreakLabel=7ee0d1&sideLabels=c9d1d9&dates=c9d1d9" alt="GitHub Streak" />
+<img height="180" src="https://streak-stats.demolab.com/?user=Abdussamed-1&hide_border=true&background=0d1117&ring=7ee0d1&fire=22c55e&currStreakLabel=7ee0d1&currStreakNum=c9d1d9&sideLabels=c9d1d9&sideNums=c9d1d9&dates=c9d1d9" alt="GitHub Streak" />
 
 </div>
 
