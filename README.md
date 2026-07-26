@@ -25,20 +25,19 @@
 
 ## 📊 GitHub Stats
 
-<!-- Live GitHub data via Actions → static PNG (Camo-safe). No external runtime APIs on page load. -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/github-stats.png" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/top-langs.png" alt="Top Languages" />
+  <img height="135" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/github-stats.png" alt="GitHub Stats" />
+  <img height="135" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/top-langs.png" alt="Top Languages" />
 </div>
 <br/>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/streak.png" alt="GitHub Streak" />
+  <img height="120" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/streak.png" alt="GitHub Streak" />
 </div>
 
 ## 📈 Activity Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/activity-graph.png" alt="GitHub Activity Graph" />
+  <img width="780" src="https://raw.githubusercontent.com/Abdussamed-1/Abdussamed-1/main/profile/activity-graph.png" alt="GitHub Activity Graph" />
 </div>
 
 ## 💻 Languages & Tools
