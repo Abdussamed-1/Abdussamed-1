@@ -8,7 +8,7 @@
 
 <div align="center">
   <p>
-    I'm passionate about <strong>Data Science</strong>, <strong>Bioinformatics</strong>, and <strong>Artificial Intelligence</strong>. I also have a strong interest in <strong>SQL</strong> and <strong>Database Management</strong>. I focus on building data analytics and machine learning solutions across different programming languages and tools.
+    I'm passionate about <strong>Data Science</strong>, <strong>Bioinformatics</strong>, and <strong>Artificial Intelligence</strong>. I build reproducible workflows for genomic analysis, data exploration, and machine learning with a strong focus on <strong>SQL</strong>, <strong>database design</strong>, and practical automation.
   </p>
 </div>
 
@@ -17,10 +17,10 @@
 ## 🚀 About Me
 
 - 🎓 I work on projects related to data science, artificial intelligence, and bioinformatics.
-- 🧬 Specializing in genomic data analysis and biological sequence processing.
-- 🛠️ Languages I use: **Python**, **R**, **SQL**, **JavaScript**, **Rust**, **C#**.
-- 💡 Interests: **Machine Learning**, **Data Analytics**, **Natural Language Processing**, **Database Management**, **Bioinformatics**.
-- 📊 Experienced in database management and writing complex queries.
+- 🧬 I specialize in genomic data analysis, biological sequence processing, and research-oriented automation.
+- 🛠️ Languages I use: **Python**, **R**, **SQL**, **JavaScript**, **TypeScript**, **Rust**, **C#**, and **Bash**.
+- 💡 My interests include **Machine Learning**, **Data Analytics**, **Natural Language Processing**, **Database Management**, and **Bioinformatics**.
+- 📊 I enjoy designing clean queries, reproducible notebooks, and data pipelines that are easy to maintain.
 
 <br/>
 
@@ -42,12 +42,12 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ffcc&icon_color=00ffcc" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdussamed-1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ffcc" alt="Top Languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Abdussamed-1&show_icons=true&count_private=true&include_all_commits=true&cache_seconds=1800&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7ee0d1&icon_color=7ee0d1&text_color=c9d1d9" alt="GitHub Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdussamed-1&layout=compact&langs_count=8&cache_seconds=1800&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7ee0d1&text_color=c9d1d9" alt="Top Languages" />
 
 <br/>
 
-<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Abdussamed-1&theme=tokyonight&hide_border=true&background=0d1117&ring=00ffcc&fire=00ffcc&currStreakLabel=00ffcc" alt="GitHub Streak" />
+<img height="180" src="https://streak-stats.demolab.com/?user=Abdussamed-1&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=7ee0d1&fire=7ee0d1&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3&cache_seconds=1800" alt="GitHub Streak" />
 
 </div>
 
@@ -57,7 +57,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&theme=react-dark&hide_border=true&bg_color=0d1117&color=00ffcc&line=00ffcc&point=ffffff" alt="GitHub Activity Graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Abdussamed-1&theme=react-dark&hide_border=true&bg_color=0d1117&color=7ee0d1&line=7ee0d1&point=c9d1d9" alt="GitHub Activity Graph" />
 
 </div>
 
@@ -65,24 +65,37 @@
 
 ## 💻 Languages & Tools
 
+<div align="center">
+
 ### 🛠️ Programming Languages
 
-| Language       | Level                                                                    |
-|----------------|---------------------------------------------------------------------------|
-| **Python**     | ![Advanced](https://img.shields.io/badge/Level-Advanced-brightgreen)      |
-| **SQL**        | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-yellow)   |
-| **JavaScript** | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange)   |
-| **R**          | ![Beginner](https://img.shields.io/badge/Level-Beginner-red)              |
-| **Rust**       | ![Beginner](https://img.shields.io/badge/Level-Beginner-red)              |
-| **C#**         | ![Beginner](https://img.shields.io/badge/Level-Beginner-red)              |
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-### 🧬 Bioinformatics Tools
+### 🧬 Bioinformatics & Data Tools
 
-| Tool              | Usage                                                                    |
-|-------------------|---------------------------------------------------------------------------|
-| **BioPython**     | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange)   |
-| **BLAST**         | ![Intermediate](https://img.shields.io/badge/Level-Intermediate-orange)   |
-| **Bioconductor**  | ![Beginner](https://img.shields.io/badge/Level-Beginner-red)              |
+![BioPython](https://img.shields.io/badge/BioPython-00A3A3?style=for-the-badge)
+![BLAST](https://img.shields.io/badge/BLAST-0F766E?style=for-the-badge)
+![Bioconductor](https://img.shields.io/badge/Bioconductor-4B8BBE?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-2C7FB8?style=for-the-badge)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+</div>
 
 <br/>
 
@@ -90,11 +103,15 @@
 
 <div align="center">
 
-![Genomics](https://img.shields.io/badge/Genomics-00ffcc?style=for-the-badge&labelColor=0d1117)
+![Genomics](https://img.shields.io/badge/Genomics-7ee0d1?style=for-the-badge&labelColor=0d1117)
+![Bioinformatics](https://img.shields.io/badge/Bioinformatics-0f766e?style=for-the-badge&labelColor=0d1117)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-ff00aa?style=for-the-badge&labelColor=0d1117)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-7c3aed?style=for-the-badge&labelColor=0d1117)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Data Science](https://img.shields.io/badge/Data%20Science-00ffaa?style=for-the-badge&labelColor=0d1117)
+![Data Science](https://img.shields.io/badge/Data%20Science-22c55e?style=for-the-badge&labelColor=0d1117)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 

@@ -21,7 +21,7 @@ jobs:
           path: profile/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           options: >-
-            username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&icon_color=00ff41&text_color=e6edf3&border_radius=14&disable_animations=true
+            username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&cache_seconds=1800&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7ee0d1&icon_color=7ee0d1&text_color=c9d1d9&border_radius=14&disable_animations=true
 
       - name: Top languages card
         uses: stats-organization/github-readme-stats-action@v2
@@ -30,7 +30,7 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           options: >-
-            username=${{ github.repository_owner }}&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&text_color=e6edf3&langs_count=6&border_radius=14&disable_animations=true&hide=Jupyter%20Notebook
+            username=${{ github.repository_owner }}&layout=compact&langs_count=8&cache_seconds=1800&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7ee0d1&text_color=c9d1d9&border_radius=14&disable_animations=true&hide=Jupyter%20Notebook
 
       - name: Activity graph
         uses: maurodesouza/github-readme-activity-graph-action@v1
@@ -39,13 +39,13 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           output_path: profile/activity-graph.svg
           options: >-
-            bg_color=0d1117&color=9fb0c3&line=00ffcc&point=00ff41&area=true&area_color=00ffcc&hide_border=true&radius=14&custom_title=Contribution%20Activity&title_color=00ffcc
+            bg_color=0d1117&color=9fb0c3&line=7ee0d1&point=c9d1d9&area=true&area_color=7ee0d1&hide_border=true&radius=14&custom_title=Contribution%20Activity&title_color=7ee0d1
 
       - name: Streak card
         continue-on-error: true
         run: |
           curl -fsSL \
-            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=00ffcc&fire=00ff41&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3" \
+            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&border_radius=14&background=0D1117&stroke=30363d&ring=7ee0d1&fire=7ee0d1&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=9fb0c3&sideLabels=9fb0c3&dates=9fb0c3&cache_seconds=1800" \
             -o profile/streak.svg
           head -c 200 profile/streak.svg | grep -qi '<svg' || git checkout -- profile/streak.svg 2>/dev/null || true
 
