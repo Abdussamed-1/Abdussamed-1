@@ -38,20 +38,6 @@
 
 <br/>
 
-## 📊 GitHub Stats
-
-**Abdüssamed Erkalp** (`[@Abdussamed-1](https://github.com/Abdussamed-1)`) · Joined Jan 14, 2023
-
-| Metric | Value |
-| :--- | ---: |
-| Followers | 55 |
-| Following | 89 |
-| Public repositories | 16 |
-| Stars (owned repos) | 12 |
-| Forks (owned repos) | 0 |
-| Public gists | 0 |
-
-<br/>
 
 ## 💻 Languages & Tools
 
