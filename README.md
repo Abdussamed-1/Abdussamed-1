@@ -40,17 +40,16 @@
 
 ## 📊 GitHub Stats
 
-<!-- GitHub Stats artık dış servislere değil, .github/workflows/metrics.yml ile her gün otomatik üretilip repo'ya commit edilen kendi dosyana bağlı. Rate limit riski yok. Streak kartı ayrı bir, çalışan servis olduğu için korundu. -->
+**Abdüssamed Erkalp** (`[@Abdussamed-1](https://github.com/Abdussamed-1)`) · Joined Jan 14, 2023
 
-<div align="center">
-
-<img width="100%" src="./github-metrics.svg" alt="GitHub Metrics" />
-
-<br/><br/>
-
-<img height="180" src="https://streak-stats.demolab.com/?user=Abdussamed-1&hide_border=true&background=0d1117&ring=7ee0d1&fire=22c55e&currStreakLabel=7ee0d1&currStreakNum=c9d1d9&sideLabels=c9d1d9&sideNums=c9d1d9&dates=c9d1d9" alt="GitHub Streak" />
-
-</div>
+| Metric | Value |
+| :--- | ---: |
+| Followers | 55 |
+| Following | 89 |
+| Public repositories | 16 |
+| Stars (owned repos) | 12 |
+| Forks (owned repos) | 0 |
+| Public gists | 0 |
 
 <br/>
 
