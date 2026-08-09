@@ -75,7 +75,7 @@
 
 <br/>
 
-## 🧠 Tech Focus
+## 🧠 Technology Focus
 
 <div align="center">
 
