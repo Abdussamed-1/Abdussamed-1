@@ -54,7 +54,7 @@
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-### 🧬 Bioinformatics & Data Tools
+### 🧬 Bioinformatics & Data Toolsss
 
 ![BioPython](https://img.shields.io/badge/BioPython-00A3A3?style=for-the-badge)
 ![BLAST](https://img.shields.io/badge/BLAST-0F766E?style=for-the-badge)
