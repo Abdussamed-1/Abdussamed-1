@@ -8,7 +8,7 @@
 
 <div align="center">
   <p>
-    I'm passionate about <strong>Data Science</strong>, <strong>Bioinformatics</strong>, and <strong>Artificial Intelligence</strong>. I build reproducible workflows for genomic analysis, data exploration, and machine learning with a strong focus on <strong>SQL</strong>, <strong>database design</strong>, and practical automation.
+    I'm passionate about <strong>Data Science</strong>, <strong>Bioinformatics</strong>, and <strong>Artificial Intelligence</strong>. I build reproducible workflows for genomic analysis, data exploration, and machine learning with a strong focus on <strong>SQL</strong>, <strong>database design</strong>, and practical automations.
   </p>
 </div>
 
