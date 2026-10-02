@@ -19,7 +19,7 @@
 - 🎓 I'm working on projects related to data science, artificial intelligence, and bioinformatics.
 - 🧬 I specializes in genomics data analysis, biological sequence processing, and research-oriented automation.
 - 🛠️ Language I use: **Python**, **R**, **SQL**, **JavaScript**, **TypeScript**, **Rust**, **C#**, and **Bash**.
-- 💡 My interests include **Machine Learning**, **Data Analytics**, **Natural Language Processing**, **Database Management**, and **Bioinformatics**.
+- 💡 My interests include **Machine Learning**, **Data Analytics**, **Natural Language Processing**, **Database Management**,**Molecular Docking** and **Bioinformatics**.
 - 📊 I enjoy designing clean queries, reproducible notebooks, and data pipelines that are easy to maintain.
 
 <br/>
