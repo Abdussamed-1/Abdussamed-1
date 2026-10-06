@@ -39,7 +39,7 @@
 <br/>
 
 
-## 💻 Languages & Tools
+## 💻 Languages And Tools
 
 <div align="center">
 
