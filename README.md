@@ -121,7 +121,7 @@
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/abdulsamet@chinarqai.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdulsamet@chinarqai.com)
+[![Email](https://img.shields.io/badge/abdulsamet@chinarqai.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sameterkalpofficial@gmail.com)
 
 </div>
 
